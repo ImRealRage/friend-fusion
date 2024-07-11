@@ -34,7 +34,7 @@ const Post = () => {
         {/* INTERACTION */}
         <div className="flex items-center justify-between text-sm my-4">
             <div className="flex gap-8">
-                <div className="flex items-center gap-4 bg-slate-50 p-2 rounded-xl">
+                <div className="flex items-center gap-4 bg-slate-100 p-2 rounded-xl">
                 <Image src={"/Like.png"} 
                 alt=''
                 width={16}
@@ -44,7 +44,7 @@ const Post = () => {
                 <span className='text-gray-500'>244 <span className='hidden md:inline'>Likes</span></span>
                 </div>
 
-                <div className="flex items-center gap-4 bg-slate-50 p-2 rounded-xl">
+                <div className="flex items-center gap-4 bg-slate-100 p-2 rounded-xl">
                 <Image src={"/comment.png"} 
                 alt=''
                 width={16}
@@ -55,7 +55,7 @@ const Post = () => {
                 </div>
             </div>
             <div className="">
-            <div className="flex items-center gap-4 bg-slate-50 p-2 rounded-xl">
+            <div className="flex items-center gap-4 bg-slate-100 p-2 rounded-xl">
                 <Image src={"/share.png"} 
                 alt=''
                 width={16}
